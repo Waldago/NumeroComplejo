@@ -29,7 +29,7 @@ public class Complejo {
 	}
 
 	public double modulo() {
-		return Math.sqrt(this.getReal()*this.getReal()+this.getIma()*this.getIma());
+		return Math.sqrt(Math.pow(this.getReal(),2)+Math.pow(this.getIma(),2));
 	}
 
 	public void clone(Complejo c) {
